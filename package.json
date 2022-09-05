@@ -1,0 +1,17 @@
+{
+  "name": "all_clients_contracts",
+  "version": "1.0.0",
+  "description": "my all clients contrcats",
+  "main": "index.js",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "@solana/solidity": "^0.0.20",
+    "@solana/web3.js": "^1.50.1",
+    "web3": "^1.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

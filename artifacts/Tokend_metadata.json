@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "tokenId",
+						"type": "uint256"
+					}
+				],
+				"name": "tokenURI",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"AdminPanel_TimedPreSale.sol": "Tokend"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"AdminPanel_TimedPreSale.sol": {
+			"keccak256": "0x881946cf8c38fb3f6c864300e2d9e46e0ea835fb86dc692717b49c4aefc97f78",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c7b0e88756c10015fa3f60bf85f87961919605f2b2b601be59e22332aa5398b6",
+				"dweb:/ipfs/QmdLHyTFzhjWLS54qwZawLB1K6vdLD2WUQmLqrQugWurjG"
+			]
+		}
+	},
+	"version": 1
+}

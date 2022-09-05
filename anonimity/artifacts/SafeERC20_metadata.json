@@ -1,0 +1,39 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Wrappers around ERC20 operations that throw on failure (when the token contract returns false). Tokens that return no value (and instead revert or throw on failure) are also supported, non-reverting calls are assumed to be successful. To use this library you can add a `using SafeERC20 for ERC20;` statement to your contract, which allows you to call the safe operations as `token.safeTransfer(...)`, etc.",
+			"methods": {},
+			"title": "SafeERC20"
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"anonimity/0.1-ETH-Anonymity.sol": "SafeERC20"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"anonimity/0.1-ETH-Anonymity.sol": {
+			"keccak256": "0x382319095dc614b0d19f72e360463584c4f7be665d4bd2f54e6bb80427fe1d19",
+			"urls": [
+				"bzz-raw://b7dfdc820c4ec9fcc681fb87e7efc90967c5cf1d5657233c241f3e0d8bf73a26",
+				"dweb:/ipfs/QmbL8QuFwUHofzaxodQpF4kX6NwEMoRbCBmRHF3wXNvzSg"
+			]
+		}
+	},
+	"version": 1
+}

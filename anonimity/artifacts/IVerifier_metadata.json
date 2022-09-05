@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_nullifierHash",
+						"type": "bytes32"
+					}
+				],
+				"name": "verifyNullifier",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "_proof",
+						"type": "bytes"
+					},
+					{
+						"internalType": "uint256[6]",
+						"name": "_input",
+						"type": "uint256[6]"
+					}
+				],
+				"name": "verifyProof",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"anonimity/0.1-ETH-Anonymity.sol": "IVerifier"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"anonimity/0.1-ETH-Anonymity.sol": {
+			"keccak256": "0x382319095dc614b0d19f72e360463584c4f7be665d4bd2f54e6bb80427fe1d19",
+			"urls": [
+				"bzz-raw://b7dfdc820c4ec9fcc681fb87e7efc90967c5cf1d5657233c241f3e0d8bf73a26",
+				"dweb:/ipfs/QmbL8QuFwUHofzaxodQpF4kX6NwEMoRbCBmRHF3wXNvzSg"
+			]
+		}
+	},
+	"version": 1
+}

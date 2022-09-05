@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"details": "Contract module that helps prevent reentrant calls to a function. * Inheriting from `ReentrancyGuard` will make the {nonReentrant} modifier available, which can be applied to functions to make sure there are no nested (reentrant) calls to them. * Note that because there is a single `nonReentrant` guard, functions marked as `nonReentrant` may not call one another. This can be worked around by making those functions `private`, and then adding `external` `nonReentrant` entry points to them.",
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"anonimity/0.1-ETH-Anonymity.sol": "ReentrancyGuard"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"anonimity/0.1-ETH-Anonymity.sol": {
+			"keccak256": "0x382319095dc614b0d19f72e360463584c4f7be665d4bd2f54e6bb80427fe1d19",
+			"urls": [
+				"bzz-raw://b7dfdc820c4ec9fcc681fb87e7efc90967c5cf1d5657233c241f3e0d8bf73a26",
+				"dweb:/ipfs/QmbL8QuFwUHofzaxodQpF4kX6NwEMoRbCBmRHF3wXNvzSg"
+			]
+		}
+	},
+	"version": 1
+}
